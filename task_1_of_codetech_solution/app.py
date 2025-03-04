@@ -5,7 +5,7 @@ from sklearn.tree import plot_tree
 
 def main():
     # Load the trained GridSearchCV Decision Tree model
-    model_path = r"C:\Users\abhin\Desktop\machine_learning\decision_tree(house_price_prediction,flower_classification)\trained_decissiontree_classifier.pkl"
+    model_path = r"C:\Users\abhin\Desktop\task_1_of_codetech_solution\trained_decissiontree_classifier.pkl"
     model = joblib.load(model_path)
 
     # Use the best estimator from GridSearchCV for visualization
